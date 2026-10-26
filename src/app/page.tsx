@@ -1,69 +1,87 @@
+import Navbar from "@/app/components/Navbar";
 import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
-      <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <Image
-          className="dark:invert h-5 w-[100px]"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className="flex flex-col items-center gap-6 text-center sm:items-start sm:text-left">
-          <h1 className="max-w-xs text-3xl font-semibold leading-10 tracking-tight text-black dark:text-zinc-50">
-            To get started, edit the{" "}
-            <code className="rounded bg-black/[.06] px-1.5 py-0.5 font-mono text-[0.9em] dark:bg-white/[.08]">
-              page.tsx
-            </code>{" "}
-            file.
-          </h1>
-          <p className="max-w-md text-lg leading-8 text-zinc-600 dark:text-zinc-400">
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              className="font-medium text-zinc-950 dark:text-zinc-50"
-            >
-              Learning
-            </a>{" "}
-            center.
+    <main className="min-h-screen bg-[#0b1120] text-white">
+      <Navbar />
+
+      <section
+        id="home"
+        className="mx-auto grid min-h-[85vh] max-w-7xl items-center gap-12 px-5 py-16 md:grid-cols-2 lg:px-8"
+      >
+        {/* Introduction */}
+        <div>
+          <p className="mb-4 text-sm font-semibold tracking-[0.25em] text-blue-400">
+            HELLO, I&apos;M
           </p>
+
+          <h1 className="text-4xl font-bold leading-tight tracking-tight sm:text-5xl lg:text-6xl">
+            Mahmudun Nabin
+          </h1>
+
+          <h2 className="mt-5 text-2xl font-semibold text-slate-300 sm:text-3xl">
+            Web Developer
+          </h2>
+
+          <p className="mt-6 max-w-xl leading-8 text-slate-400">
+            I am passionate about building modern and responsive web
+            applications using JavaScript, TypeScript, React, and Next.js. I
+            enjoy solving problems, learning new technologies, and turning ideas
+            into useful digital experiences.
+          </p>
+
+          {/* Action buttons */}
+          <div className="mt-8 flex flex-wrap gap-4">
+            <a
+              href="#projects"
+              className="rounded-lg bg-blue-600 px-6 py-3 font-semibold transition hover:bg-blue-500"
+            >
+              View My Projects ↗
+            </a>
+
+            <a
+              href="/resume.pdf"
+              download
+              className="rounded-lg border border-slate-600 px-6 py-3 font-semibold transition hover:border-blue-400 hover:text-blue-400"
+            >
+              Download Resume ↓
+            </a>
+          </div>
+
+          {/* Social links */}
+          <div className="mt-8 flex gap-6 text-sm text-slate-400">
+            <a
+              href="https://github.com/nabin-90"
+              target="_blank"
+              rel="noreferrer"
+              className="transition hover:text-blue-400"
+            >
+              GitHub ↗
+            </a>
+
+            <a
+              href="https://www.linkedin.com/"
+              target="_blank"
+              rel="noreferrer"
+              className="transition hover:text-blue-400"
+            >
+              LinkedIn ↗
+            </a>
+          </div>
         </div>
-        <div className="flex flex-col gap-4 text-base font-medium sm:flex-row">
-          <a
-            className="flex h-12 w-full items-center justify-center gap-2 rounded-full bg-foreground px-5 text-background transition-colors hover:bg-[#383838] dark:hover:bg-[#ccc] md:w-[158px]"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
+
+        {/* Profile image */}
+        <div className="mx-auto w-full max-w-sm">
+          <div className="rounded-3xl border border-slate-700 bg-gradient-to-br from-blue-500/20 to-slate-900 p-3 shadow-2xl">
             <Image
-              className="dark:invert h-[14px] w-4"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={14}
+              src="/images/profile.jpg"
+              alt="Mahmudun Nabin - Web Developer"
+              className="aspect-[4/5] w-full rounded-2xl object-cover"
             />
-            Deploy Now
-          </a>
-          <a
-            className="flex h-12 w-full items-center justify-center rounded-full border border-solid border-black/[.08] px-5 transition-colors hover:border-transparent hover:bg-black/[.04] dark:border-white/[.145] dark:hover:bg-[#1a1a1a] md:w-[158px]"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+          </div>
         </div>
-      </main>
-    </div>
+      </section>
+    </main>
   );
 }
