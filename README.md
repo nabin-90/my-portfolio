@@ -113,6 +113,7 @@ The development server will automatically refresh the page when you make support
 - **Live Portfolio:** [my-portfolio-eight-livid-34.vercel.app](https://my-portfolio-eight-livid-34.vercel.app/)
 - **GitHub Repository:** [nabin-90/my-portfolio](https://github.com/nabin-90/my-portfolio)
 - **GitHub Profile:** [github.com/nabin-90](https://github.com/nabin-90)
+- **Resume:** [Download My Resume](https://my-portfolio-eight-livid-34.vercel.app/mahmudun-nabin-resume.pdf)
 - **Bazar Dor:** [Live Demo](https://bazardor-self.vercel.app/) · [Source Code](https://github.com/nabin-90/bazar-dor)
 - **FitLog:** [Live Demo](https://my-fitlog-app.vercel.app/) · [Source Code](https://github.com/nabin-90/fitlog)
 - **Dev Stack:** [Live Demo](https://devstack-by-nabin.vercel.app/) · [Source Code](https://github.com/nabin-90/dev-stack)
