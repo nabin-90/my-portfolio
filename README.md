@@ -1,36 +1,145 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mahmudun Nabin — Personal Portfolio
 
-## Getting Started
+A modern, responsive personal portfolio website showcasing my skills, projects, and journey as a Web Developer.
 
-First, run the development server:
+🌐 **Live Demo:** [Visit My Portfolio](https://my-portfolio-eight-livid-34.vercel.app/)
+
+## 📌 Project Overview
+
+This is my personal portfolio website, built to introduce myself as a Web Developer, showcase my technical skills and projects, and make it easy for recruiters, developers, and potential collaborators to connect with me.
+
+The website highlights my background, web development journey, technical expertise, and hands-on projects using a clean and responsive user interface.
+
+## 🖼️ Screenshot
+
+<!-- Add a screenshot at public/images/portfolio-preview.png, then uncomment the next line. -->
+
+<!-- ![Portfolio Website Screenshot](public/images/portfolio-preview.png) -->
+
+## 🛠️ Tech Stack
+
+The main technologies used in this project include:
+
+- **Next.js** — React framework for building modern web applications
+- **React** — Component-based user interface development
+- **TypeScript** — Type-safe JavaScript development
+- **Tailwind CSS** — Responsive and utility-first styling
+- **JavaScript (ES6+)** — Modern JavaScript features
+- **Vercel** — Hosting and deployment
+
+## ✨ Key Features
+
+- **Personal Introduction:** Introduces me and my journey as a Web Developer.
+- **Responsive Design:** Adapts to desktop, tablet, and mobile screens.
+- **About Me Section:** Shares my learning journey, background, and career goals.
+- **Skills Showcase:** Highlights my technical skills and development tools.
+- **Project Portfolio:** Displays selected projects with descriptions and relevant links.
+- **Project Details:** Provides additional information about individual projects.
+- **Resume Access:** Provides a way to view or download my resume when available.
+- **Contact Information:** Makes it easier to reach me.
+- **Social Links:** Connects visitors to my professional profiles.
+- **Modern UI:** Uses reusable components and a clean visual layout.
+
+## 📦 Dependencies
+
+The following are the core packages and development tools expected in this project. Check `package.json` for the exact installed dependencies and versions.
+
+| Package | Purpose |
+|---|---|
+| `next` | Next.js framework |
+| `react` | Building UI components |
+| `react-dom` | Rendering React components |
+| `typescript` | Type checking and development |
+| `tailwindcss` | Styling and responsive layouts |
+| `eslint` | Code quality and linting |
+
+Additional packages, such as icon libraries or animation libraries, may also be used if they are included in the project's `package.json`.
+
+## 🚀 Getting Started
+
+Follow these steps to run the project locally.
+
+### Prerequisites
+
+Make sure you have installed:
+
+- [Node.js](https://nodejs.org/)
+- npm (included with Node.js)
+- [Git](https://git-scm.com/)
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/nabin-90/my-portfolio.git
+```
+
+### 2. Navigate to the Project Directory
+
+```bash
+cd my-portfolio
+```
+
+### 3. Install Dependencies
+
+```bash
+npm install
+```
+
+### 4. Start the Development Server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 5. Open the Website
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open your browser and visit:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```text
+http://localhost:3000
+```
 
-## Learn More
+The development server will automatically refresh the page when you make supported code changes.
 
-To learn more about Next.js, take a look at the following resources:
+## 📜 Available Scripts
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+| Command | Description |
+|---|---|
+| `npm run dev` | Starts the development server |
+| `npm run build` | Creates an optimized production build |
+| `npm run start` | Runs the production server after building |
+| `npm run lint` | Runs ESLint, if configured in `package.json` |
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 🔗 Project Links
 
-## Deploy on Vercel
+- **Live Portfolio:** [my-portfolio-eight-livid-34.vercel.app](https://my-portfolio-eight-livid-34.vercel.app/)
+- **GitHub Repository:** [nabin-90/my-portfolio](https://github.com/nabin-90/my-portfolio)
+- **GitHub Profile:** [github.com/nabin-90](https://github.com/nabin-90)
+- **Bazar Dor:** [Live Demo](https://bazardor-self.vercel.app/) · [Source Code](https://github.com/nabin-90/bazar-dor)
+- **FitLog:** [Live Demo](https://my-fitlog-app.vercel.app/) · [Source Code](https://github.com/nabin-90/fitlog)
+- **Dev Stack:** [Live Demo](https://devstack-by-nabin.vercel.app/) · [Source Code](https://github.com/nabin-90/dev-stack)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🎯 Project Goals
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+- Showcase my web development skills and personal projects.
+- Build a professional online presence.
+- Practice modern frontend and full-stack development.
+- Continuously improve my coding, UI design, and problem-solving skills.
+- Connect with other developers and explore career opportunities.
+
+## 👨‍💻 About Me
+
+I'm Mahmudun Nabin, an aspiring Web Developer currently pursuing a Full Stack Web Engineering course at Programming Hero.
+
+I'm passionate about learning modern web technologies and building responsive, user-friendly web applications. I enjoy improving my skills through practical projects and continuous learning.
+
+## 📬 Contact
+
+- **GitHub:** [nabin-90](https://github.com/nabin-90)
+- **Portfolio:** [Visit Website](https://my-portfolio-eight-livid-34.vercel.app/)
+
+---
+
+⭐ If you find this project interesting, feel free to explore the repository and check out my other projects.
+
+**Built with ❤️ by Mahmudun Nabin**
