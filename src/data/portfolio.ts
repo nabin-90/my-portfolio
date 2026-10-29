@@ -107,7 +107,7 @@ export const portfolioData: PortfolioData = {
     },
     resume: {
       isAvailable: true,
-      filePath: "/resume.pdf",
+      filePath: "/mahmudun-nabin-resume.pdf",
     },
   },
   socialLinks: {
