@@ -100,7 +100,7 @@ export const portfolioData: PortfolioData = {
       ],
     },
     image: {
-      src: "/images/prodile.jpeg",
+      src: "/images/profile.jpeg",
       alt: "Mahmudun Nabin - Web Developer",
       width: 1086,
       height: 1448,
