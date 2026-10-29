@@ -12,9 +12,7 @@ The website highlights my background, web development journey, technical experti
 
 ## 🖼️ Screenshot
 
-<!-- Add a screenshot at public/images/portfolio-preview.png, then uncomment the next line. -->
-
-<!-- ![Portfolio Website Screenshot](public/images/portfolio-preview.png) -->
+![Portfolio Website Screenshot](public/images/portfolio-preview.png)
 
 ## 🛠️ Tech Stack
 
