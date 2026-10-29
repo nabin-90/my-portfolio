@@ -61,8 +61,8 @@ export interface PersonalInfo {
     height: number;
   };
   resume: {
-    filePath: string;
     isAvailable: boolean;
+    filePath: string;
   };
 }
 
@@ -83,15 +83,10 @@ export const portfolioData: PortfolioData = {
     about: {
       paragraphs: [
         "Hello! I am Mahmudun Nabin, a web developer who loves creating clean, responsive, and intuitive web applications.",
-        "My highest educational qualification is the Higher Secondary Certificate (HSC) in the Science group. Through self-directed learning, I discovered my enthusiasm for web technologies and programming.",
-        "I currently have no professional work experience, but I am actively dedicating my time to hands-on learning and building personal web projects. I work primarily with JavaScript, TypeScript, React, Next.js, and Tailwind CSS to strengthen my frontend and full-stack foundations.",
+        "I am currently pursuing a Full Stack Web Engineering course at Programming Hero, where I am developing my skills in modern web technologies and programming.",
+        "I currently have no professional work experience, but I am actively dedicating my time to hands-on learning and building personal web projects. I work primarily with JavaScript, TypeScript, React, Next.js, and Tailwind CSS to strengthen my frontend and full-stack development skills.",
       ],
       highlights: [
-        {
-          label: "Highest Education",
-          value: "HSC (Science)",
-          detail: "Completed Higher Secondary",
-        },
         {
           label: "Professional Status",
           value: "Web Developer",
@@ -111,8 +106,8 @@ export const portfolioData: PortfolioData = {
       height: 1448,
     },
     resume: {
+      isAvailable: true,
       filePath: "/resume.pdf",
-      isAvailable: false,
     },
   },
   socialLinks: {
@@ -123,7 +118,15 @@ export const portfolioData: PortfolioData = {
   skills: [
     {
       title: "Core Technologies",
-      skills: ["JavaScript", "TypeScript", "React", "Next.js", "Tailwind CSS", "HTML5", "CSS3"],
+      skills: [
+        "JavaScript",
+        "TypeScript",
+        "React",
+        "Next.js",
+        "Tailwind CSS",
+        "HTML5",
+        "CSS3",
+      ],
     },
     {
       title: "Tools & Platforms",
@@ -133,9 +136,10 @@ export const portfolioData: PortfolioData = {
   education: [
     {
       id: "edu-1",
-      degree: "Higher Secondary Certificate (HSC) - Science",
-      duration: "Completed",
-      description: "Completed higher secondary education in the Science discipline, building a strong base in analytical problem-solving.",
+      degree: "Full Stack Web Development",
+      duration: "Currently Learning",
+      description:
+        "Currently learning Full Stack Web Development at Programming Hero, gaining hands-on experience with modern web technologies and building practical projects.",
     },
   ],
   experience: [

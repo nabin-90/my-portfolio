@@ -5,7 +5,6 @@ const footerNavLinks = [
   { name: "About", href: "#about" },
   { name: "Skills", href: "#skills" },
   { name: "Education", href: "#education" },
-  { name: "Experience", href: "#experience" },
   { name: "Projects", href: "#projects" },
   { name: "Contact", href: "#contact" },
 ];
@@ -47,26 +46,34 @@ export default function Footer() {
         </div>
 
         {/* Bottom Bar */}
-        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-slate-800/80 pt-6 text-xs sm:flex-row">
-          <p>© {currentYear} Mahmudun Nabin. All rights reserved.</p>
 
-          <div className="flex items-center gap-6">
+        <div className="mt-10 flex flex-col items-center justify-between gap-4 border-t border-slate-800/80 pt-6 text-xs text-slate-400 sm:flex-row">
+          <p className="text-center sm:text-left">
+            © {currentYear} Mahmudun Nabin. All rights reserved.
+          </p>
+
+          <div className="flex flex-wrap items-center justify-center gap-4 sm:gap-6">
             <a
               href={socialLinks.github}
               target="_blank"
-              rel="noreferrer"
+              rel="noopener noreferrer"
+              aria-label="Visit Mahmudun Nabin's GitHub profile"
               className="font-medium transition hover:text-blue-400"
             >
               GitHub Profile ↗
             </a>
-            <span className="text-slate-600">•</span>
-            <span className="text-slate-500">
-              Built with Next.js &amp; Tailwind CSS
+
+            <span
+              className="hidden text-slate-600 sm:inline"
+              aria-hidden="true"
+            >
+              •
             </span>
+
+            <p className="text-center">Built with Next.js &amp; Tailwind CSS</p>
           </div>
         </div>
       </div>
     </footer>
   );
 }
-

@@ -28,6 +28,7 @@ export default function Hero() {
         </p>
 
         {/* Action buttons */}
+
         <div className="mt-8 flex flex-wrap items-center gap-4">
           <a
             href="#projects"
@@ -97,4 +98,3 @@ export default function Hero() {
     </section>
   );
 }
-
